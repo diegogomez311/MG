@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&family=Teko:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Rubik', sans-serif; }
+  body h1 {
+    font-family: "Teko", sans-serif;
+    font-size: 50px;
+    line-height: 48px; }
+  body h2 {
+    font-family: "Teko", sans-serif;
+    font-size: 46px;
+    line-height: 48px; }
+  body h3 {
+    font-family: "Teko", sans-serif;
+    font-size: 30px;
+    line-height: 48px; }
+  body h4 {
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    line-height: 48px; }
+  body h5 {
+    font-family: "Teko", sans-serif;
+    font-size: 10px;
+    line-height: 48px; }
+
+#navbar {
+  background-color: #0d5473;
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  z-index: 100; }
+  #navbar .bkg_logo {
+    background-color: #44474c;
+    height: 120px; }
+  #navbar .logo {
+    width: 60px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; }
+    #navbar .logo img {
+      margin-top: 20px; }
+  #navbar .menu {
+    margin-top: 50px; }
+    #navbar .menu ul {
+      list-style-type: none;
+      padding-left: 20px;
+      padding-right: 20px; }
+    #navbar .menu li {
+      margin-bottom: 15px; }
+
+#slide {
+  margin-right: 100px;
+  margin-left: 0px; }
+  #slide .carousel-indicators {
+    bottom: 240px; }
+
+#inicio {
+  padding-left: 100px;
+  height: 450px; }
+  #inicio .subir {
+    position: relative;
+    bottom: 250px; }
+  #inicio .card {
+    margin: 12px;
+    padding: 5px;
+    border-radius: 15px; }
+
+#modelos {
+  padding-left: 100px; }
+  #modelos button {
+    width: 300px;
+    margin-top: 10px; }
+  #modelos .btn-primary {
+    background-color: #0d5473; }
+  #modelos .btn-secondary {
+    background-color: #0d5473; }
+  #modelos .table {
+    color: #ffffff; }
+
+#nosotros {
+  padding-left: 100px; }
+  #nosotros img {
+    border-radius: 10px; }
+  #nosotros p {
+    line-height: 110%; }
+  #nosotros .card-body {
+    padding: 10px; }
+
+#servicios {
+  padding-left: 100px; }
+  #servicios .card {
+    width: 100%;
+    padding: 10px; }
+  #servicios .badge-primary {
+    background-color: #0d5473; }
+
+#galeria {
+  padding-left: 100px; }
+  #galeria .modal-dialog {
+    max-width: 700px; }
+  #galeria .modal-footer {
+    border-top: 0px; }
+  #galeria .card-body {
+    padding: 5px; }
+
+#contacto {
+  padding-left: 100px; }
+
+#footer {
+  padding-left: 100px; }
+
+/*MQUERY*/
+@media all and (max-width: 768px) {
+  #inicio {
+    height: 1350px; }
+    #inicio .subir {
+      position: relative;
+      bottom: 0px; } }
+
+/*MQUERY*/
+@media all and (max-width: 992px) {
+  #inicio {
+    height: 1350px; }
+    #inicio .subir {
+      position: relative;
+      bottom: 0px; } }
+
+/*MQUERY*/
+@media all and (max-width: 1200) {
+  #inicio {
+    height: 1350px; }
+    #inicio .subir {
+      position: relative;
+      bottom: px; } }
+
+/*TITULOS*/
+.titulo-oswald-blanco {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 46px;
+  color: #ffffff; }
+
+.titulo-oswald-negro {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 46px;
+  color: #000000; }
+
+.titulo-oswald-c-o {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 46px;
+  color: #0d5473; }
+
+.subtit-o-b {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff; }
+
+.subtit-o-n {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #000000; }
+
+.cardtit-o-n {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000; }
+
+.cardtit-o-b {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff; }
+
+.wa a {
+  width: 90px;
+  position: fixed;
+  bottom: 150px;
+  right: 20px; }
+
+/*PARRAFOS*/
+.p-o-b {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ffffff; }
+
+.p-o-n {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000; }
+
+.p-o-co {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #0d5473; }
+
+/*BORDES*/
+.brd-5 {
+  border-radius: 5px; }
+
+.brd-10 {
+  border-radius: 10px; }
+
+.brd-15 {
+  border-radius: 15px; }
+
+.brd-20 {
+  border-radius: 20px; }
+
+/*BACKGOUND*/
+.bg-co {
+  background-color: #0d5473; }
+
+.bg-c {
+  background-color: #389ccd; }
+
+.bg-n {
+  background-color: #e77500; }
+
+.bg-g {
+  background-color: #44474c; }
+
+.bg-g-o {
+  background-color: #292a2b; }
+
+.bg-b {
+  background-color: #ffffff; }

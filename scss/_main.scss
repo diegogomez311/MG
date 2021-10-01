@@ -1,0 +1,300 @@
+*{ 
+  margin: 0;
+  padding: 0;    
+}
+
+body {  
+  font-family: 'Rubik', sans-serif;
+  h1 {
+    font-family: $teko;      
+    font-size: 50px;
+    line-height: 48px;
+  } 
+  h2 {
+    font-family: $teko;      
+    font-size: 46px;
+    line-height: 48px;
+  }
+  h3 {
+    font-family: $teko;      
+    font-size: 30px;
+    line-height: 48px;
+  }  
+  
+  h4 {
+    font-family: $teko;      
+    font-size: 20px;
+    line-height: 48px;
+  }   
+
+  h5{
+      font-family: $teko;      
+      font-size: 10px;
+      line-height: 48px;
+  } 
+} 
+
+#navbar{
+  background-color: $celeste-oscuro;
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  
+  .bkg_logo{
+    background-color: $gris;
+    height: 120px;
+  }
+  .logo{          
+    width: 60px;    
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    img{
+      margin-top: 20px;
+    }
+  }
+  .menu{
+    margin-top: 50px;
+    
+    ul{
+      list-style-type: none;
+      padding-left: 20px;     
+      padding-right: 20px;     
+    }
+    li{
+      margin-bottom: 15px;     
+    }   
+  }
+}
+
+#slide{   
+  margin-right: 100px;
+  margin-left: 0px;
+  .carousel-indicators{
+    bottom: 240px;
+  }
+}
+
+#inicio{  
+  padding-left:100px;
+  height: 450px;
+  .subir{
+    position:relative;
+    bottom:250px;
+  }
+  
+  .card{
+    margin: 12px;
+    padding: 5px;
+    border-radius: $border-15;
+  }  
+}
+
+
+#modelos{
+  padding-left:100px; 
+  button{
+    width: 300px;
+    margin-top: 10px;    
+  }
+  .btn-primary{
+    background-color: $celeste-oscuro;
+  }
+  .btn-secondary{
+    background-color: $celeste-oscuro;
+  }
+  .table{
+    color: $blanco;
+  }
+}
+
+#nosotros{  
+  padding-left:100px;
+  img{
+    border-radius: $border-10;
+  }
+  p{
+    line-height: 110%;
+  }
+  .card-body{
+    padding: 10px;
+
+  }
+  
+}
+
+#servicios{   
+  padding-left:100px; 
+  .card{
+    width: 100%;         
+    padding: 10px;    
+  }
+  .badge-primary{
+    background-color: $celeste-oscuro;
+  }
+}
+
+#galeria{   
+  padding-left:100px;
+  .modal-dialog{
+    max-width: 700px;
+  }
+  .modal-footer{
+    border-top:0px
+  }
+  .card-body{
+    padding: 5px;
+  }
+}
+
+#contacto{   
+  padding-left:100px;
+}
+
+#footer{ 
+  
+  padding-left:100px;
+}
+
+
+/*MQUERY*/
+@media all and (max-width: 768px) {
+  #inicio{
+    height: 1350px;
+
+    .subir{
+      position:relative;
+      bottom:0px;
+    }
+    
+  }
+} 
+
+/*MQUERY*/
+@media all and (max-width: 992px) {
+  #inicio{
+    height: 1350px;
+
+    .subir{
+      position:relative;
+      bottom:0px;
+    }
+    
+  }
+}
+
+/*MQUERY*/
+@media all and (max-width: 1200) {
+  #inicio{
+    height: 1350px;
+
+    .subir{
+      position:relative;
+      bottom:px;
+    }
+    
+  }
+}
+
+
+
+
+/*TITULOS*/
+@mixin oswald ($font, $weight, $size, $color){
+  font-family: $font;    
+  font-weight: $weight;
+  font-size: $size;
+  color: $color;    
+}
+.titulo-oswald-blanco {
+  @include oswald ($oswald,$oswald-regular,46px,$blanco)
+}
+
+.titulo-oswald-negro {
+  @include oswald ($oswald,$oswald-regular,46px,$negro)
+}
+
+.titulo-oswald-c-o {
+  @include oswald ($oswald,$oswald-regular,46px,$celeste-oscuro)
+}
+
+.subtit-o-b{
+  @include oswald($oswald,$oswald-regular,30px,$blanco)
+}
+
+.subtit-o-n{
+  @include oswald($oswald,$oswald-regular,30px,$negro)
+}
+
+.cardtit-o-n{
+  @include oswald($oswald,$oswald-regular,20px,$negro)
+}
+
+.cardtit-o-b{
+  @include oswald($oswald,$oswald-regular,20px,$blanco)
+}
+
+.wa{
+  a{
+    width: 90px;
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+  } 
+}
+
+/*PARRAFOS*/
+@mixin parrafoxl ($font, $weight, $size, $color){
+  font-family: $font;    
+  font-weight: $weight;
+  font-size: $size;
+  color: $color;    
+}
+.p-o-b {
+  @include parrafoxl ($rubik,$rubik-light,20px,$blanco)
+}
+.p-o-n {
+  @include parrafoxl ($rubik,$rubik-light,20px,$negro)
+}
+.p-o-co {
+  @include parrafoxl ($rubik,$rubik-light,20px,$celeste-oscuro)
+}
+/*BORDES*/
+@mixin borde ($borde){    
+  border-radius: $borde;  
+}
+.brd-5 {
+  @include borde ($border-5)
+}
+.brd-10 {
+  @include borde ($border-10)
+}
+.brd-15 {
+  @include borde ($border-15)
+}
+.brd-20 {
+  @include borde ($border-20)
+}
+/*BACKGOUND*/
+@mixin bg ($color){    
+  background-color: $color;  
+}
+.bg-co {
+  @include bg ($celeste-oscuro)
+}
+.bg-c {
+  @include bg ($celeste)
+}
+.bg-n {
+  @include bg ($naranja)
+}
+.bg-g {
+  @include bg ($gris)
+}
+.bg-g-o {
+  @include bg ($gris-oscuro)
+}
+.bg-b {
+  @include bg ($blanco)
+}

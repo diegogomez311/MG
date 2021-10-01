@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAIA,OAAO,CAAC,oHAAI;AACZ,OAAO,CAAC,kFAAI;AACZ,OAAO,CAAC,iGAAI",
+    "sources": [
+        "estilos.scss",
+        "_colores.scss",
+        "_fonts.scss",
+        "_bordes.scss",
+        "_main.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}
