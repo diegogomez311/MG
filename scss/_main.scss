@@ -115,7 +115,7 @@ body {
     border-radius: $border-10;
   }
   p{
-    line-height: 110%;
+    line-height: 140%;
   }
   .card-body{
     padding: 10px;
@@ -123,12 +123,12 @@ body {
   }
   
 }
-
++
 #servicios{   
   padding-left:100px; 
   .card{
-    width: 100%;         
-    padding: 10px;    
+    width: 100%;
+   
   }
   .badge-primary{
     background-color: $celeste-oscuro;
@@ -237,10 +237,12 @@ body {
 
 .wa{
   a{
-    width: 90px;
+    width: 70px;
     position: fixed;
-    bottom: 150px;
-    right: 20px;
+    bottom: 80px;
+    left: 20px;
+    z-index: 200;    
+    
   } 
 }
 

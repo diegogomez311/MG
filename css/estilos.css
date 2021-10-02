@@ -88,16 +88,18 @@ body {
   #nosotros img {
     border-radius: 10px; }
   #nosotros p {
-    line-height: 110%; }
+    line-height: 140%; }
   #nosotros .card-body {
     padding: 10px; }
 
++
 #servicios {
   padding-left: 100px; }
-  #servicios .card {
-    width: 100%;
-    padding: 10px; }
-  #servicios .badge-primary {
+  +
+#servicios .card {
+    width: 100%; }
+  +
+#servicios .badge-primary {
     background-color: #0d5473; }
 
 #galeria {
@@ -183,10 +185,11 @@ body {
   color: #ffffff; }
 
 .wa a {
-  width: 90px;
+  width: 70px;
   position: fixed;
-  bottom: 150px;
-  right: 20px; }
+  bottom: 80px;
+  left: 20px;
+  z-index: 200; }
 
 /*PARRAFOS*/
 .p-o-b {
