@@ -91,7 +91,6 @@ body {
   }  
 }
 
-
 #modelos{
   padding-left:100px; 
   button{
@@ -123,18 +122,13 @@ body {
   }
   
 }
-+
-#servicios{   
-  padding-left:100px; 
-  .card{
-    width: 100%;
-   
-  }
-  .badge-primary{
-    background-color: $celeste-oscuro;
-  }
-}
 
+#servicios{   
+  padding-left:100px;
+  .card{
+    width: 100%;   
+  }  
+}
 #galeria{   
   padding-left:100px;
   .modal-dialog{
@@ -142,6 +136,9 @@ body {
   }
   .modal-footer{
     border-top:0px
+  }
+  .card{    
+    height: 290px;   
   }
   .card-body{
     padding: 5px;
@@ -159,13 +156,13 @@ body {
 
 
 /*MQUERY*/
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) {
   #inicio{
-    height: 1350px;
+    height: 480px;
 
     .subir{
       position:relative;
-      bottom:0px;
+      bottom:250px;
     }
     
   }
@@ -174,28 +171,15 @@ body {
 /*MQUERY*/
 @media all and (max-width: 992px) {
   #inicio{
-    height: 1350px;
-
+    height: 1390px;
     .subir{
       position:relative;
       bottom:0px;
-    }
-    
-  }
+    }    
+  } 
 }
 
-/*MQUERY*/
-@media all and (max-width: 1200) {
-  #inicio{
-    height: 1350px;
 
-    .subir{
-      position:relative;
-      bottom:px;
-    }
-    
-  }
-}
 
 
 
@@ -240,7 +224,7 @@ body {
     width: 70px;
     position: fixed;
     bottom: 80px;
-    left: 20px;
+    left: 25px;
     z-index: 200;    
     
   } 
