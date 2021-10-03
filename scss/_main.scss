@@ -161,7 +161,7 @@ body {
     display: none;
   }
   #inicio{
-    padding-left:0px;
+    padding-left:5px;
     height: 480px;
 
     .subir{
@@ -170,19 +170,26 @@ body {
     }    
   }
   #modelos{
-    padding-left:0px;
+    padding-left:30px;
   }
   #nosotros{
-    padding-left:0px;
+    padding-left:30px;
   }
   #servicios{
-    padding-left:0px;
+    padding-left:30px;
+    .card{
+      height: 350px;
+      p{
+        font-size: 14px;
+        line-height: 120%;
+      }
+    }
   }
   #galeria{
-    padding-left:0px;
+    padding-left:30px;
   }
   #contacto{
-    padding-left:0px;
+    padding-left:30px;
   }
 } 
 

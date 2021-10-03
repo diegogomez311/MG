@@ -119,21 +119,26 @@ body {
   #navbar {
     display: none; }
   #inicio {
-    padding-left: 0px;
+    padding-left: 5px;
     height: 480px; }
     #inicio .subir {
       position: relative;
       bottom: 250px; }
   #modelos {
-    padding-left: 0px; }
+    padding-left: 30px; }
   #nosotros {
-    padding-left: 0px; }
+    padding-left: 30px; }
   #servicios {
-    padding-left: 0px; }
+    padding-left: 30px; }
+    #servicios .card {
+      height: 350px; }
+      #servicios .card p {
+        font-size: 14px;
+        line-height: 120%; }
   #galeria {
-    padding-left: 0px; }
+    padding-left: 30px; }
   #contacto {
-    padding-left: 0px; } }
+    padding-left: 30px; } }
 
 /*MQUERY*/
 @media all and (max-width: 992px) {
