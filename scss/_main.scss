@@ -156,15 +156,33 @@ body {
 
 
 /*MQUERY*/
-@media all and (min-width: 768px) {
+@media all and (max-width: 768px) {
+  #navbar{
+    display: none;
+  }
   #inicio{
+    padding-left:0px;
     height: 480px;
 
     .subir{
       position:relative;
       bottom:250px;
-    }
-    
+    }    
+  }
+  #modelos{
+    padding-left:0px;
+  }
+  #nosotros{
+    padding-left:0px;
+  }
+  #servicios{
+    padding-left:0px;
+  }
+  #galeria{
+    padding-left:0px;
+  }
+  #contacto{
+    padding-left:0px;
   }
 } 
 
