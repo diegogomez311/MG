@@ -170,16 +170,14 @@ body {
   #navbar{
     display: none;
   }
-  #slide{   
-    margin-right: 0px;
-    margin-left: 0px;
+  #slide{      
     .carousel-indicators{
-      bottom: 40px;
+      bottom: 30px;
     }
   }
   
   #inicio{
-    padding-left:5px;
+    padding-left:20px;
     height: 450px;
 
     .subir{
@@ -188,13 +186,13 @@ body {
     }    
   }
   #modelos{
-    padding-left:30px;
+    padding-left:20px;
   }
   #nosotros{
-    padding-left:30px;
+    padding-left:20px;
   }
   #servicios{
-    padding-left:30px;
+    padding-left:20px;
     .card{
       height: 300px;     
       p{
@@ -204,7 +202,7 @@ body {
     }
   }
   #galeria{
-    padding-left:30px;
+    padding-left:20px;
     .card{    
       height: 200px;   
     }
@@ -214,24 +212,13 @@ body {
     }
   }
   #contacto{
-    padding-left:30px;
+    padding-left:20px;
   }
   .wa{
     display: none;
   }
 } 
 
-
-/*MQUERY*/
-@media all and (max-width: 992px) {
-  #inicio{
-    height: 1390px;
-    .subir{
-      position:relative;
-      bottom:0px;
-    }    
-  } 
-}
 
 
 
