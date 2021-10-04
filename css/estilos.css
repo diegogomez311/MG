@@ -134,27 +134,27 @@ body {
       position: relative;
       bottom: 0px; }
   #modelos {
-    padding-left: 20px; }
+    padding-left: 15px; }
     #modelos .table {
       margin-top: 20px; }
   #nosotros {
-    padding-left: 20px; }
+    padding-left: 15px; }
   #servicios {
-    padding-left: 20px; }
+    padding-left: 15px; }
     #servicios .card {
       height: 300px; }
       #servicios .card p {
         font-size: 14px;
         line-height: 120%; }
   #galeria {
-    padding-left: 20px; }
+    padding-left: 15px; }
     #galeria .card {
       height: 200px; }
     #galeria p {
       font-size: 14px;
       line-height: 120%; }
   #contacto {
-    padding-left: 20px; }
+    padding-left: 15px; }
   .wa {
     display: none; } }
 
