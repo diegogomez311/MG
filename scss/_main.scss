@@ -196,7 +196,7 @@ body {
   #servicios{
     padding-left:30px;
     .card{
-      height: 350px;     
+      height: 300px;     
       p{
         font-size: 14px;
         line-height: 120%;
@@ -205,6 +205,13 @@ body {
   }
   #galeria{
     padding-left:30px;
+    .card{    
+      height: 200px;   
+    }
+    p{
+      font-size: 14px;
+      line-height: 120%;
+    }
   }
   #contacto{
     padding-left:30px;

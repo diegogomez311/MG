@@ -143,12 +143,17 @@ body {
   #servicios {
     padding-left: 30px; }
     #servicios .card {
-      height: 350px; }
+      height: 300px; }
       #servicios .card p {
         font-size: 14px;
         line-height: 120%; }
   #galeria {
     padding-left: 30px; }
+    #galeria .card {
+      height: 200px; }
+    #galeria p {
+      font-size: 14px;
+      line-height: 120%; }
   #contacto {
     padding-left: 30px; }
   .wa {
