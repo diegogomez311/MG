@@ -170,6 +170,14 @@ body {
   #navbar{
     display: none;
   }
+  #slide{   
+    margin-right: 0px;
+    margin-left: 0px;
+    .carousel-indicators{
+      bottom: 40px;
+    }
+  }
+  
   #inicio{
     padding-left:5px;
     height: 480px;
