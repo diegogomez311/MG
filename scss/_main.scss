@@ -153,6 +153,16 @@ body {
   
   padding-left:100px;
 }
+.wa{
+  a{
+    width: 70px;
+    position: fixed;
+    bottom: 80px;
+    left: 25px;
+    z-index: 200;    
+    
+  } 
+}
 
 
 /*MQUERY*/
@@ -178,7 +188,7 @@ body {
   #servicios{
     padding-left:30px;
     .card{
-      height: 350px;
+      height: 350px;     
       p{
         font-size: 14px;
         line-height: 120%;
@@ -191,7 +201,11 @@ body {
   #contacto{
     padding-left:30px;
   }
+  .wa{
+    display: none;
+  }
 } 
+
 
 /*MQUERY*/
 @media all and (max-width: 992px) {
@@ -244,16 +258,7 @@ body {
   @include oswald($oswald,$oswald-regular,20px,$blanco)
 }
 
-.wa{
-  a{
-    width: 70px;
-    position: fixed;
-    bottom: 80px;
-    left: 25px;
-    z-index: 200;    
-    
-  } 
-}
+
 
 /*PARRAFOS*/
 @mixin parrafoxl ($font, $weight, $size, $color){
