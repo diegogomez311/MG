@@ -128,13 +128,15 @@ body {
   #slide .carousel-indicators {
     bottom: 30px; }
   #inicio {
-    padding-left: 20px;
-    height: 450px; }
+    padding-left: 15px;
+    height: 1300px; }
     #inicio .subir {
       position: relative;
-      bottom: 250px; }
+      bottom: 0px; }
   #modelos {
     padding-left: 20px; }
+    #modelos .table {
+      margin-top: 20px; }
   #nosotros {
     padding-left: 20px; }
   #servicios {

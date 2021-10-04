@@ -149,8 +149,7 @@ body {
   padding-left:100px;
 }
 
-#footer{ 
-  
+#footer{   
   padding-left:100px;
 }
 .wa{
@@ -177,16 +176,18 @@ body {
   }
   
   #inicio{
-    padding-left:20px;
-    height: 450px;
-
+    padding-left:15px;
+    height: 1300px;
     .subir{
       position:relative;
-      bottom:250px;
+      bottom:0px;
     }    
   }
   #modelos{
     padding-left:20px;
+    .table{
+      margin-top: 20px;
+    }
   }
   #nosotros{
     padding-left:20px;
@@ -214,6 +215,7 @@ body {
   #contacto{
     padding-left:20px;
   }
+
   .wa{
     display: none;
   }
