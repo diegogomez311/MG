@@ -198,6 +198,13 @@ body {
   #inicio{
     padding-left:15px;
     height: 1300px;
+    .titulo-oswald-blanco{
+      font-size: 40px;
+      line-height: 40px;
+    }
+    .p-o-b{
+      font-size: 14px;
+    }
     .subir{
       position:relative;
       bottom:0px;
@@ -205,15 +212,39 @@ body {
   }
   #modelos{
     padding-left:15px;
+    .titulo-oswald-blanco{
+      font-size: 34px;
+      line-height: 40px;
+    }
+    .p-o-b{
+      font-size: 14px;
+    }
+
     .table{
       margin-top: 20px;
     }
   }
-  #nosotros{
+  #nosotros{    
     padding-left:15px;
+    .titulo-oswald-negro{
+      font-size: 34px;
+      line-height: 40px;
+    }
+    p{
+      font-size: 14px;
+    }
+    
   }
+
   #servicios{
     padding-left:15px;
+    .titulo-oswald-blanco{
+      font-size: 34px;
+      line-height: 40px;
+    }
+    .p-o-b{
+      font-size: 14px;
+    }
     .card{
       height: 300px;     
       p{
@@ -221,9 +252,16 @@ body {
         line-height: 120%;
       }
     }
+    .card-body{
+      padding: 10px;
+    }
   }
   #galeria{
     padding-left:15px;
+    .titulo-oswald-blanco{
+      font-size: 34px;
+      line-height: 40px;
+    }
     .card{    
       height: 200px;   
     }
@@ -234,6 +272,14 @@ body {
   }
   #contacto{
     padding-left:15px;
+    .titulo-oswald-blanco{
+      font-size: 34px;
+      line-height: 40px;
+    }
+    .p-o-b{
+      font-size: 14px;
+    }
+
     .card{
       height: 300px;
     }

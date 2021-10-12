@@ -145,24 +145,49 @@ body {
   #inicio {
     padding-left: 15px;
     height: 1300px; }
+    #inicio .titulo-oswald-blanco {
+      font-size: 40px;
+      line-height: 40px; }
+    #inicio .p-o-b {
+      font-size: 14px; }
     #inicio .subir {
       position: relative;
       bottom: 0px; }
   #modelos {
     padding-left: 15px; }
+    #modelos .titulo-oswald-blanco {
+      font-size: 34px;
+      line-height: 40px; }
+    #modelos .p-o-b {
+      font-size: 14px; }
     #modelos .table {
       margin-top: 20px; }
   #nosotros {
     padding-left: 15px; }
+    #nosotros .titulo-oswald-negro {
+      font-size: 34px;
+      line-height: 40px; }
+    #nosotros p {
+      font-size: 14px; }
   #servicios {
     padding-left: 15px; }
+    #servicios .titulo-oswald-blanco {
+      font-size: 34px;
+      line-height: 40px; }
+    #servicios .p-o-b {
+      font-size: 14px; }
     #servicios .card {
       height: 300px; }
       #servicios .card p {
         font-size: 14px;
         line-height: 120%; }
+    #servicios .card-body {
+      padding: 10px; }
   #galeria {
     padding-left: 15px; }
+    #galeria .titulo-oswald-blanco {
+      font-size: 34px;
+      line-height: 40px; }
     #galeria .card {
       height: 200px; }
     #galeria p {
@@ -170,6 +195,11 @@ body {
       line-height: 120%; }
   #contacto {
     padding-left: 15px; }
+    #contacto .titulo-oswald-blanco {
+      font-size: 34px;
+      line-height: 40px; }
+    #contacto .p-o-b {
+      font-size: 14px; }
     #contacto .card {
       height: 300px; }
   .wa {
