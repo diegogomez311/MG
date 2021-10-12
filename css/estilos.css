@@ -55,7 +55,19 @@ body {
       margin-bottom: 15px; }
   #navbar .musica {
     background-color: #389ccd;
-    border-radius: 8px; }
+    border-radius: 8px;
+    width: 40px;
+    margin-left: 10px; }
+    #navbar .musica button {
+      width: 30px;
+      color: #ffffff;
+      background-color: #0d5473;
+      border-radius: 7px;
+      margin: 2px;
+      border: none;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px; }
 
 #slide {
   margin-right: 100px;

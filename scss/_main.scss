@@ -69,7 +69,23 @@ body {
   .musica{
     background-color:$celeste;
     border-radius: 8px;
+    width: 40px;
+    margin-left: 10px;
+    
+    button{
+      width: 30px;
+      color: $blanco;
+      background-color: $celeste-oscuro;
+      border-radius: 7px;
+      margin: 2px;
+      border: none;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      
+    }
   }
+
 }
 
 #slide{   
