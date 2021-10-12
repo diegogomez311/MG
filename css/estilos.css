@@ -53,6 +53,9 @@ body {
       padding-right: 20px; }
     #navbar .menu li {
       margin-bottom: 15px; }
+  #navbar .musica {
+    background-color: #389ccd;
+    border-radius: 8px; }
 
 #slide {
   margin-right: 100px;
