@@ -124,12 +124,17 @@ body {
     height: 290px; }
   #galeria .card-body {
     padding: 5px; }
+    #galeria .card-body p {
+      margin-top: 3px;
+      line-height: 100%; }
 
 #contacto {
   padding-left: 100px; }
 
 #footer {
   padding-left: 100px; }
+  #footer p {
+    font-size: 10px; }
 
 .wa a {
   width: 70px;
